@@ -31,6 +31,6 @@ spec:
         secretPrefix: "data/supplychain"
         tls:
     image:
-      repository: index.docker.io/hyperledgerlabs/bevel-alpine
+      repository: ghcr.io/hyperledger/bevel-alpine
       tag: latest
       pullSecret: "regcred"
