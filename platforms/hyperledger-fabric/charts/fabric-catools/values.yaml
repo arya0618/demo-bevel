@@ -31,7 +31,7 @@ image:
   pullPolicy: IfNotPresent
   #Provide the valid image name and version to read certificates from vault server
   #Eg.alpineutils: ghcr.io/hyperledger/bevel-alpine:latest
-  alpineutils: ghcr.io/hyperledger/bevel-alpine:latest
+  alpineutils: index.docker.io/hyperledgerlabs/bevel-alpine:latest
 
 annotations:
   #Extra annotations
