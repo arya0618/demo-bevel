@@ -17,7 +17,7 @@ metadata:
   images:
     #Provide the valid image name and version to read certificates from vault server
     #Eg.alpineutils: ghcr.io/hyperledger/bevel-alpine:latest
-    alpineutils: index.docker.io/hyperledgerlabs/bevel-alpine:latest
+    alpineutils: index.docker.io/hyperledgerlabs/alpine-utils:1.0
   #Provide the custom labels
   #NOTE: Provide labels other than name, release name , release service, chart version , chart name , app.
   #Eg. labels:
